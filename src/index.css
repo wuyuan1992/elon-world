@@ -1,15 +1,15 @@
-html{
-  width: 100%;
-  height: 100%;
-  font-size: 10px;
-}
-body {
-  width: 100%;
-  height: 100%;
-  background: rgb(37, 37, 46);
-}
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box；
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
 }
