@@ -8,7 +8,7 @@ export function random(limit){
 
 // 随机小数
 export function randomDigit(limit){
-    return Math.random()*(limit);
+    return Math.random()*(limit)*( Math.random()>.5?1:-1 );
 }
 
 export function createVectors(count, xLimit, yLimit){

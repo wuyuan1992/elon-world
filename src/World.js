@@ -12,7 +12,8 @@ class World extends Component {
     this.state = {
       width: 30, height: 30,
       movers : createMovers(15),
-      forces : createVectors(1, 0.02, 0),
+      forces : createVectors(1, .4, 0),
+      // liquid : new Liquid(p, height)
     }
   }
 

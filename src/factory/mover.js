@@ -79,6 +79,8 @@ export class Mover{
         this.v.add(this.a);
         // 位置更新 ( 按照 100：1 )
         this.p.add(this.v);
+
+        this.a = new Vector(0, 0);
         return this;
     }
 
@@ -161,6 +163,7 @@ export class Mover{
                 .checkStop();
             return mover;
         });
+
     }
     
     static displayAll(movers) {
